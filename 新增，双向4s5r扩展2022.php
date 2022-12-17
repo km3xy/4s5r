@@ -41,8 +41,6 @@ $("#"+x).append("+"+Math.floor(Math.random()*0+0));
 
   });
 
-      
-/双向4舍5入以上
 
   $("#btn2").click(function(){
     $("ol").append("<li>追加列表项</li>");
@@ -52,6 +50,6 @@ $("#"+x).append("+"+Math.floor(Math.random()*0+0));
 
 
 
-
+//双向4舍5入以上
 
 
