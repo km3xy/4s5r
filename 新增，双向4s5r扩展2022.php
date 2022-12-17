@@ -1,4 +1,6 @@
+
 <script>
+
 $(document).ready(function(){
   $("#btn1").click(function(){
       
@@ -47,6 +49,8 @@ $("#"+x).append("+"+Math.floor(Math.random()*0+0));
   });
 });
 </script>
+
+
 
 
 
