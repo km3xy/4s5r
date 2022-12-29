@@ -1,0 +1,81 @@
+
+//自动点按钮代码片段
+
+
+<button  style="font-size:88px;color:#FF0000" onclick="function()" id='btn1'>前区能自动点击按钮</button>  
+
+<script>
+
+
+window.onload=setTimeout(function (){
+    
+    
+    
+    
+var x="",i=0;
+
+    //随机点击次数
+
+
+var q=Math.random();
+ 
+
+var t=Math.random();
+
+
+if (q>t){
+
+    alert('按钮被点击啦  N次'); 
+    
+    var y=Math.floor(Math.random()*5+5); 
+
+}
+
+else{
+
+    alert('按钮没被点击 0次 '); 
+    var y=Math.floor(Math.random()*0+0); 
+
+}
+
+
+    //随机点击次数
+
+    while (i<y){
+
+        x=x + "被点击了 " + i + "<br>";
+
+        i++;
+
+    
+
+document.getElementById('btn1').click();
+
+  
+   }
+    
+    
+    
+    
+}, 8000);
+
+
+
+  
+
+
+function  myFunction1(){
+alert('按钮被点击啦'); 
+
+    
+
+
+}
+
+
+</script>
+
+
+
+
+
